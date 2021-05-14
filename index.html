@@ -1,0 +1,206 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my project</title><link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+</head>
+<body>
+<div class="firstpage">
+    <div class="front">
+            <div class="preview">
+             <img src="logo.png" alt="" width="200px" height="70px">
+
+                <div id="List">
+                 <ul class="Lis">
+                    <li class="link"><a href="">Home</a></li>
+                    <li class="link"><a href="">Careers</a></li>
+                    <li class="link"><a href="">Talk to Us</a></li>
+                 </ul>
+                </div> 
+            </div>
+    </div>
+
+
+    <div class="formbox_center">
+          
+        <button id="align"> FLIGHTS</button>
+        <button id="aligntwo">MANAGE BOOKINGS</button>
+        <button id="align">ONLINE CHECK-IN</button>
+        <button id="align">AFFINITY WINGS</button>
+        
+        <h3>BOOK FLIGHT TICKETS</h3>
+        <input type="checkbox" value="ROUND TRIP" id="check">
+        <label for="ROUND TRIP" id="check">ROUND TRIP</label>
+        <input type="checkbox" value="ONE WAY" id="check">
+        <label for="ONE WAY" id="check">ONE WAY</label>
+        <br><br>
+    <form action="post">
+        <div class="one">
+                <label for="states">FLYING FROM</label>
+              <select name="states" id="states">
+                    <option value="FROM">FROM</option>
+                    <option value="Abuja">Abuja(ABV)</option>
+                    <option value="Lagos">Lagos(LOS)</option>
+                    <option value="PHC">Port Harcourt(PHC)</option>
+                </select>
+             <label for="states"> FLYING TO </label>
+             <select name="states" id="states" >
+                 <option value="TO">TO</option>
+                <option value="Abuja">Abuja(ABV)</option>
+                <option value="Lagos">Lagos(LOS)</option>
+                <option value="PHC">Port Harcourt(PHC)</option>
+             </select>
+        </div>
+            <br>
+        <div class="depart">
+            <label for="date" id="Date">DEPARTURE DATE</label>
+            <input type="datetime-local">
+            <br><br>
+           <div class="Adult">
+               <label for="ADULT">ADULT</label>
+               <select name="ADULT" id="Adult">
+                   <option value="ADULT">ADULT</option>
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+               </select>
+
+               <label for="CHILD">CHILD</label>
+                <select name="CHILD" id="Adult">
+                    <option value="CHILD">CHILD</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+
+                <label for="INFANT">INFANT</label>
+                <select name="INFANT" id="Adult">
+                    <option value="INFANT">INFANT</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+           </div> 
+           <br>
+           <button id="Search">FLIGHT SEARCH</button>
+           <br><br>
+           <button id="Fly">Covid-19 Flight Resumption: Passenger info</button>
+           <br><br>
+           <div class="alert">
+            <marquee behavior="scroll" direction="left">
+                  We are reintroducing flights from Abuja to Maiduguri effective May 10, 2021. Flights operate on Mondays, Wednesdays, Fridays and Sundays. Customers in Lagos can also connect Maiduguri via Abuja.
+            </marquee>
+        </div>
+        </div>
+
+</div>
+   </form>
+</div>
+
+<div class="secondpage">
+        <div>
+            <img src="search.png" alt="" height="100px">
+            <h3>SEARCH</h3> 
+           <p>Search for flights to a destination of your choice within Nigeria, Ghana, Liberia and Senegal.</p> 
+        </div>
+        <div>
+            <img src="cart.png" alt="" height="100px">
+            <h3>SELECT</h3>
+           <p> Flights are scheduled for your comfort   convenience.</p>
+        </div>
+        <div>
+            <img src="creditcardd.png" alt="" height="100px">
+            <h3>BOOK</h3>
+           <p>Book your flights and pay online with an option to book on-hold and pay later.</p>
+        </div>
+</div>
+
+<div class="thirdpage">
+    <div style="background-color: white;" id="Video"></div>
+    <div style="background-color:white;" id="Passport">
+        <h2 style="color: white; font-weight: bolder a;">Arik Affinity Wings</h2>
+        <h4 style="color: white;">Join Arik Affinity Wings Today and earn miles while you fly.</h4>
+        <button>Log In</button>
+    </div>
+</div>
+
+<div class="fourthclass">
+    <div>
+        <h1>TOP DESTINATIONS</h1>
+    </div>
+
+    <div id="rowone">
+        <div class="town"><img src="Abuja.jpg" alt="" width="250px" height="200px">
+            <div class="quarter"><p>ABUJA</p></div>
+        </div>
+        <div class="town"><img src="Lagos.jpg" alt="" width="250px" height="200px">
+            <div class="quarter"><p>LAGOS</p></div>
+        </div>
+        <div class="town"><img src="Owerri.jpg" alt="" width="250px" height="200px">
+            <div class="quarter"><p>OWERRI</p></div>
+        </div>
+        <div class="town"><img src="ibadan.jpg" alt="" width="250px" height="200px">
+            <div class="quarter"><p>IBADAN</p></div>
+        </div>
+    </div>
+
+    <div id="rowtwo">
+        <div class="town"><img src="illorin.jpg" alt="" width="250px" height="200px"
+            ><div class="quarter"><p>ILLORIN</p></div>
+        </div>
+        <div class="town"><img src="jos.jpg" alt="" width="250px" height="200px">
+            <div class="quarter"><p>JOS</p></div>
+        </div>
+        <div class="town"><img src="yola.jpg" alt="" width="250px" height="200px">
+            <div class="quarter"><p>YOLA</p></div>
+        </div>
+        <div class="town"><img src="kano.jpg" alt=" width=250px" height="200px">
+            <div class="quarter"><p>KANO</p></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fifthpage">
+    <div id="almost">
+        <img src="logo.png" alt="" width="200px" height="70px">
+        <p>Book flights to and from Nigeria & West Africa with Arik Air, West-Africa's leading airline offering domestic, regional and international flights..</p>
+    </div>
+
+        <button id="btn">Arik Air Terms & Conditions</button>
+        
+        <div id="contact">
+            <h4>CONTACT US</h4>
+            <div id="call">
+               <p><img src="https://img.icons8.com/dotty/80/ffffff/phone-book.png"height="50px"><strong> Head Office: </strong>Arik Aviation Centre, Muritala Muhammed Airport (Domestic Wing), Ikeja, Lagos</p>
+              <p><img src="https://img.icons8.com/android/24/ffffff/phone-disconnected.png"/>  <strong>092 131 247</strong></p>
+            </div>
+        </div>
+</div>
+
+<footer>
+       <div>
+          <p>Copyright © 2018 Arik Air Limited. All Rights Reserved</p>
+       </div>
+</footer>
+
+
+ 
+</body>
+
+
+</html>

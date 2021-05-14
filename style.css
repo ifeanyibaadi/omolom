@@ -1,0 +1,471 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#List{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    left: 70%;
+    position: fixed;
+}
+
+.Lis .link{
+    text-decoration: none;
+    margin: 20px; 
+    font-size: larger;
+    font-family: 'Fredoka One', cursive;;
+    text-decoration-line: none;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    justify-content: baseline;
+}
+
+a:hover{
+    color: #682132;
+}
+
+.front{
+    position: fixed;
+    width: 13000px;
+}
+
+.one{
+    color: white;
+    margin: 20px;
+}
+
+.formbox_center h3{
+    font-size: 18px;
+    display: block;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+#check{
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+
+
+#states{
+    padding: 10px;
+    width: 290px;
+    font-weight: bolder;
+}
+
+
+
+#Date{
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+
+#Adult{
+    padding: 10px;
+    width: 200px;
+    font-weight: bolder;
+}
+
+button{
+    padding: 15px;
+    border-radius: 7px;
+    width: 320px;
+}
+
+#Search{
+    width: 200px;
+    padding: 15px 16px;
+    font: 30px;
+    background-color: #34000d;
+    color: white;
+    margin-left: 73%;
+    font-weight: bolder;
+
+}
+
+label{
+    color: white;
+}
+
+.depart{
+    margin: 20px;
+
+}
+
+#Search:hover{
+    background-color: rgb(24, 24, 59);
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+#Fly{
+    margin: 10px 0px 0px;
+    padding:15px 16px;
+    width: 390px;
+    background-color: #5bc0de;
+    font-size: large;
+    color: cornsilk;
+    font-family: 'Lusitana', serif;
+}
+
+#Fly:hover{
+    color: #7ccde5;
+}
+
+#align{
+    border-radius: 0px;
+    width: 190px;
+    position: relative;
+    top: -10%;
+    left: 1px;
+    padding: 25px;
+    border: 0px solid;
+    background-color: #084f7e;
+    opacity: 0.6;
+    color: white;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#aligntwo{
+    border-radius: 0px;
+    width: 200px;
+    position: relative;
+    top: -10%;
+    left: 1px;
+    padding: 25px;
+    border: 0px solid;
+    background-color: #084f7e;
+    opacity: 0.6;
+    color: white;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#alignone{
+    border-radius: 0px;
+    width: 150px;
+    position: relative;
+    top: -9%;
+    left: 1px;
+    padding: 25px;
+    border: 0px solid;
+    background-color: #084f7e;
+    opacity: 0.6;
+    color: white;
+    font-size: em;
+}
+
+#align:hover{
+    background-color: #34000d;
+    opacity: 1;
+}
+
+#aligntwo:hover{
+    background-color: #34000d;
+    opacity: 1;
+}
+
+
+.formbox_center {
+    height: 645px;
+    width: 55%;
+    background-color:#6e6e8a;
+    top: 53%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    opacity: 0.8;
+    margin-top: 70px;
+    margin-left: 60px;
+    align-content: center;
+    align-items: center;
+  }
+
+.preview{
+    background:#3f7497;
+    opacity: 0.7;
+    position: fixed;
+    width: 1550px;
+}
+   
+.alert{
+    background-color: #f2dede;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 760px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: #682132;
+    opacity: 5;
+      
+}
+
+.Lis{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.firstpage{
+    height: 900px;
+    background-image: url(./lukas-souza-iz6DadX_Fl4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+
+.secondpage img{
+    position: relative;
+    left: 100px;
+}
+
+
+.secondpage{
+    height: 400px;
+    background-color: white;
+    width: 100%;
+}
+
+.secondpage{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.secondpage div{
+    margin: 40px auto;
+    height: 200px;
+    width: 300px;
+}
+
+.secondpage div h3{
+    text-align: center;
+}
+
+.secondpage div p{
+    text-align: center;
+}
+
+
+.thirdpage{
+    height: 800px;
+    width: 1500px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),#084f7e),url(gemma-FxvViwDrStI-unsplash.jpg);
+    background-size: contain;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+}
+
+.thirdpage h1{
+    position: relative;
+    bottom: 300px;
+    display: inline-flex;
+    left: 500px;
+    color: white;
+}
+
+.thirdpage div{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 250px;
+    opacity: 0.8;
+}
+
+#Passport{
+    background-image: url(passport.jpg);
+}
+
+
+#Passport h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+#Passport h4{
+    text-align: center;
+}
+
+#Passport button{
+    width: 100px;;
+    border-radius: 0px;
+    color: white;
+    font-size: 100%;
+    font-weight: bolder;
+    background-color: #34000d;
+    margin-left: 200px;
+}
+
+#Passport button:hover{
+    border: solid  #34000d;
+    background-color: transparent;
+    color: #34000d;
+}
+
+.fourthclass{
+    height: 700px;
+    width: 900px;
+}
+
+.fourthclass h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 565px;
+    margin-top: 100px;
+}
+
+#rowone{
+    display: flex;
+    position: relative;
+    left: 170px;
+    margin-top: 100px;
+}
+
+#rowtwo{
+    display: flex;
+    position: relative;
+    left: 170px;
+    margin-top: 30px;
+}
+
+.town{
+    margin: 20px;
+}
+
+.town img{
+    transition: all 1s;
+}
+
+.town img:hover{
+    transform: scale(1.1);
+}
+
+.quarter{
+    width: 250px;
+    background-color: #084f7e;
+    height: 50px;
+    top: 30px;
+    margin: 0px;
+    position: relative;
+    margin-top: -100px;
+    opacity: 0.8;
+}
+
+.quarter p{
+    font: bolder;
+    color: white;
+    position: relative;
+    left: 40%;
+    bottom: -40%;
+}
+
+.fifthpage{
+    height: 350px;
+    width: 1500px;
+    background-color: #07253f;
+}
+
+.fifthpage #almost{
+    width: 300px;
+    font-size: 120%;
+    position: relative;
+    left:7%;
+    top: 70px;
+    line-height: 1.6em;
+}
+
+.fifthpage #almost p{
+    color: rgba(255, 255, 255, 0.63);
+}
+
+#btn{
+    position: relative;
+    left: 30%;
+    bottom: 40%;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    background-color: #5bc0de;
+    width: 280px;
+    color: white;
+}
+
+#btn:hover{
+     color: #26697e;
+}
+
+#contact{
+    position: relative;
+    bottom: 65%;
+   
+}
+
+#contact h4{
+    position: relative;
+    margin-left: 75%;
+    color: white;
+    font-size: 1.2em;
+}
+
+#call{
+    position: relative;
+    margin-left: 75%;
+    color: rgba(255, 255, 255, 0.63);
+    line-height: 1.4em;
+    width: 250px;
+    font-size: 120%;
+}
+
+footer{
+    background-color:#0a3152;
+    height: 100px;
+    width: 1500px;
+}
+
+footer div{
+    margin-left: 100px;
+    position: relative;
+    top: 40px;
+}
+
+footer div p{
+    margin-top: 0;
+    font-size: 1.4em;
+    color:  rgba(255, 255, 255, 0.63);
+
+}
+
+
+
